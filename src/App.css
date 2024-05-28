@@ -1,6 +1,11 @@
 .App {
   text-align: center;
   background-color: grey;
+  
+}
+
+.app2 {
+  background-color: aliceblue;
 }
 
 .App .h1 .text {
@@ -9,5 +14,11 @@
 
 .button1 {
   color: red;
+}
+
+.footer {
+  background-color: rgb(125, 125, 127);
+  height: 50px;
+  justify-content: center;
 }
 
