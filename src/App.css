@@ -19,6 +19,22 @@
 .footer {
   background-color: rgb(125, 125, 127);
   height: 50px;
-  justify-content: center;
+  justify-content: end;
+  align-items: flex-end;
 }
 
+/* Todo css */
+
+.table-one {
+  margin: 50px;
+  position:absolute;
+  left: 200px;
+  padding: 40px;
+}
+
+.table-two {
+  margin: 50px;
+  position:absolute;
+  right: 200px;
+  padding: 40px;
+}
