@@ -1,4 +1,5 @@
 import './App.css';
+import Mapfunction from './components/Mapfunction/Mapfunction';
 import Main from "./components/Router/Main"
 import Signup from './components/Signup/Signup';
 
@@ -7,7 +8,7 @@ function App() {
     <>
     <div className="App">
 
-    <Signup />
+    <Mapfunction />
      
       
     </div>
@@ -21,3 +22,5 @@ function App() {
 }
 
 export default App;
+
+
