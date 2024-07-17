@@ -23,11 +23,11 @@ const Counter = () => {
 
             <button style={{height:40,width:100,border:50,backgroundColor:"white" }} onClick={handleIncrement}>increment</button>
 
-            <button style={{height:40,width:100,backgroundColor:"red" }} onClick={handleDecrement}>Decrement</button>
+            <button style={{height:40,width:100 }} onClick={handleDecrement}>Decrement</button>
 
             <br></br>
 
-            <button style={{height:40,width:100,backgroundColor:"red" }} onClick={handleReset}>Reset</button>
+            <button style={{height:40,width:100 }} onClick={handleReset}>Reset</button>
         </div>
     )
 };
