@@ -1,20 +1,18 @@
 import './App.css';
-import Registration from './pages/registration';
-import Counter from './pages/counter'
-import Footer from './components/Footer';
-import Todo from './pages/Todo'
+import Main from "./components/Router/Main"
+import Signup from './components/Signup/Signup';
+
 function App() {
   return (
+    <>
     <div className="App">
+
+    <Signup />
      
-         
-     <Todo />
-
-   
       
-   
-
     </div>
+
+    </>
 
     
 

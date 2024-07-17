@@ -15,6 +15,11 @@ const Todo = () => {
         setTodo([todo , value]);
     };
 
+    const deleteTodo = (id) => {
+        let updateTodo = todo.filter(())
+
+    };
+
     console.log(todo);
     return (
 
@@ -30,7 +35,7 @@ const Todo = () => {
         <div className="table-two">
 
         <h1>Todo List</h1>
-        {setvalue}
+        {[value, setvalue   ]}
 
         <MdDeleteOutline size={50} />
         </div>
